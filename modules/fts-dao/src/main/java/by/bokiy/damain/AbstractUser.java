@@ -1,5 +1,8 @@
 package by.bokiy.damain;
 
+import java.io.Serializable;
+
+
 /**
  * Created with IntelliJ IDEA.
  * AbstractUser: kiryl
@@ -7,7 +10,8 @@ package by.bokiy.damain;
  * Time: 1:33 PM
  * To change this template use File | Settings | File Templates.
  */
-public class AbstractUser {
+
+public class AbstractUser implements Serializable {
     Long id;
     String name;
     String authName;

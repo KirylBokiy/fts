@@ -1,7 +1,6 @@
 package by.bokiy.dao;
 
 import by.bokiy.damain.AbstractUser;
-import by.bokiy.interfaces.AbstractUserDaoInterface;
 
 /**
  * Created with IntelliJ IDEA.
