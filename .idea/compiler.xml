@@ -22,10 +22,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="fts-controllers" />
         <module name="fts-dao" />
+        <module name="fts-shared" />
         <module name="fts-war" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fts" target="1.6" />
+      <module name="fts-controllers" target="1.6" />
+      <module name="fts-dao" target="1.6" />
+      <module name="fts-shared" target="1.6" />
+      <module name="fts-war" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

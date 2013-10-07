@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="fts-war:war">
-    <output-path>$PROJECT_DIR$/fts-war/target</output-path>
+    <output-path>$PROJECT_DIR$/modules/fts-war/target</output-path>
     <root id="archive" name="fts-war.war">
       <element id="artifact" artifact-name="fts-war:war exploded" />
     </root>

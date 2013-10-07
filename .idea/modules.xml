@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fts.iml" filepath="$PROJECT_DIR$/fts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/fts-controllers/fts-controllers.iml" filepath="$PROJECT_DIR$/modules/fts-controllers/fts-controllers.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/fts-dao/fts-dao.iml" filepath="$PROJECT_DIR$/modules/fts-dao/fts-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/fts-shared/fts-shared.iml" filepath="$PROJECT_DIR$/modules/fts-shared/fts-shared.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/fts-war/fts-war.iml" filepath="$PROJECT_DIR$/modules/fts-war/fts-war.iml" />
     </modules>
   </component>

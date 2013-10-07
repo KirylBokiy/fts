@@ -291,7 +291,7 @@
     </dependencies>
 
     <build>
-        <finalName>springmvc</finalName>
+        <finalName>${artifactId}</finalName>
         <plugins>
             <!-- Force Java 6 -->
             <plugin>
@@ -344,6 +344,7 @@
     <module>modules/fts-dao</module>
     <module>modules/fts-war</module>
     <module>modules/fts-controllers</module>
+    <module>modules/fts-shared</module>
   </modules>
 
 </project>

@@ -11,4 +11,6 @@ import by.bokiy.damain.AbstractUser;
  */
 public interface AbstractUserDaoInterface {
     AbstractUser find(Long id);
+    void create(AbstractUser abstractUser);
+    void update(AbstractUser abstractUser);
 }

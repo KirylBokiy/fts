@@ -19,5 +19,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>by.bokiy</groupId>
+          <artifactId>fts-dao</artifactId>
+          <version>1.0-SNAPSHOT</version>
+          <scope>provided</scope>
+      </dependency>
   </dependencies>
 </project>
