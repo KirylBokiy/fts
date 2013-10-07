@@ -28,5 +28,10 @@
         <artifactId>fts-shared</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
+        </dependency>
     </dependencies>
 </project>

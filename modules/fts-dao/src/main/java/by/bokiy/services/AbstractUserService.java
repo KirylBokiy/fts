@@ -4,6 +4,9 @@ import by.bokiy.damain.AbstractUser;
 import by.bokiy.dao.AbstractUserDao;
 import by.bokiy.dao.AbstractUserDaoInterface;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import javax.inject.Inject;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * Time: 10:54 AM
  * To change this template use File | Settings | File Templates.
  */
+@Component
 public class AbstractUserService implements AbstractUserServiceLocal{
 
 
@@ -30,7 +34,7 @@ public class AbstractUserService implements AbstractUserServiceLocal{
         }
     }
 
-    @Autowired
+    @Inject
     public void setAbstractUserDao(AbstractUserDao abstractUserDao) {
         this.abstractUserDao = abstractUserDao;
     }

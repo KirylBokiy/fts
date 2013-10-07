@@ -113,7 +113,11 @@
                 <artifactId>spring-webmvc</artifactId>
                 <version>${version.spring}</version>
             </dependency>
-
+            <dependency>
+                <groupId>javax.inject</groupId>
+                <artifactId>javax.inject</artifactId>
+                <version>1</version>
+            </dependency>
             <!-- Third Party dependencies -->
             <dependency>
                 <groupId>aopalliance</groupId>
